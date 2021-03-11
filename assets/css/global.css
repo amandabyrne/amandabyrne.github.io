@@ -18,7 +18,7 @@ input, button, textarea, select { font: inherit }
 @media (max-width: 767px) { body { padding: 12% 8% } }
 
 body { 
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
 }
 
