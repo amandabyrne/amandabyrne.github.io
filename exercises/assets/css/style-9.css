@@ -14,7 +14,7 @@ input, button, textarea, select { font: inherit }
 /* ==== Web page width ==== */
 
 /* Desktops */
-@media (min-width:768px) { body { padding: 4% 18% } }
+@media (min-width:768px) { body { padding: 4% 8% } }
 
 
 /* Mobiles */
@@ -47,32 +47,38 @@ p {
 
 /* Div selector with properties and values */
 
+.container-flexbox { 
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .bono {
     background-color: #4081ec;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 220px 
+    width: 31%; 
 }
 
 .edge {
     background-color: #ffbb33;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 220px 
+    width: 31%;
 }
 
 .adam {
     background-color: #f73345;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 220px 
+    width: 31%; 
 }
 
 .larry {
     background-color: #e0e0e0;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 220px 
+    width: 31%;
 }
 .bono h3,
 .bono p,
